@@ -1,0 +1,112 @@
+footer {
+    @include StyleWH(1327px, 200px);
+
+    background-color: $color3;
+
+    div.footerContainer {
+        @include Display(space-around, center);
+
+        height: 100%;
+
+        div.logoSocialMedia {
+            @include Display(space-around, center, column);
+
+            height: 160px;
+
+            div.socialMedia {
+                @include Display(space-between);
+
+                width: 150px;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }   
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+
+            ul {
+                display: grid;
+                grid-template-areas: 'a1 a2'
+                                     'a3 a4'
+                                     'a5 a6';
+                list-style: none;
+
+                column-gap: 4em;
+                row-gap: 1em;
+             
+                height: 50%;
+
+              
+                li a {
+                    @include ColorFont($color1, 1rem, 400);
+              
+                    text-decoration: none;
+
+                    &:hover {
+                        cursor: pointer;
+
+                        color: $color5;
+                    }
+                } 
+                
+                li#link1 {
+                    grid-area: a1;
+                }
+
+                li#link2 {
+                    grid-area: a2;
+                }
+
+                li#link3 {
+                    grid-area: a3;
+                }
+
+                li#link4 {
+                    grid-area: a4;
+                }
+
+                li#link5 {
+                    grid-area: a5;
+                }
+
+                li#link6 {
+                    grid-area: a6;
+                }
+            }
+        }
+
+        div.buttonText {
+            @include Display(center, flex-end, column);
+
+            width: 250px;
+
+            p {
+                @include ColorFont($color2, 0.9rem, 400);
+
+                padding-top: 2em;
+            }
+        }
+    }
+
+    .attribution { 
+        font-size: 15px; 
+        text-align: center; 
+
+        display: flex;
+        justify-content: center;
+
+        background-color: $color3;
+
+        p {
+            color: $color1;
+        }
+
+        a { 
+            color: hsl(228, 45%, 44%); 
+        }
+    }
+}

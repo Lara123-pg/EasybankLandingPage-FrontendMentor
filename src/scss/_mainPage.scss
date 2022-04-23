@@ -1,0 +1,182 @@
+main {
+    div.infoPhoto {
+        @include Display(space-between);
+
+        background-image: linear-gradient(hsl(0, 0%, 98%), hsl(0, 0%, 100%));
+
+        z-index: -1;
+        
+        height: 85vh;
+
+        div.texts {
+            @include Display(center, flex-start, column);
+
+            padding: 6.5em;
+
+            h1 {
+                @include ColorFont($color3, 3.2rem, 400);
+           
+                width: 400px;
+
+                padding-bottom: 0.5em;
+            }
+
+            p {
+                @include ColorFont($color2, 1.2rem, 400);
+
+                width: 470px;
+
+                padding-bottom: 2em;
+            }
+        }
+
+        img.background {
+            @include StyleWH(1000px, 850px);
+
+            z-index: 1;
+
+            margin-top: -14em;  
+        }
+
+        img.phones {
+            @include StyleWH(800px, 750px);
+
+            z-index: 1;
+
+            margin: -5em 0 0 -52em;
+        }
+    }
+
+    div.cards {
+        @include Display(center, flex-start, column);
+
+        background-color: $color7;
+
+        padding: 7em;
+
+        width: 1327px;
+
+        h2 {
+            @include ColorFont($color3, 2rem, 400);
+
+            padding-bottom: 1em;
+        }
+
+        p.mainText {
+            @include ColorFont($color2, 1.1rem, 400);
+
+            width: 600px;
+
+            padding-bottom: 1em;
+        }
+
+        div.cardsInfo {
+            display: flex;
+
+            padding-top: 3em;
+
+            div {
+                padding: 5em 1em;
+
+                img {
+                    padding-bottom: 2em;
+                }
+
+                h3 {
+                    @include ColorFont($color3, 1.4rem, 400);
+
+                    padding-bottom: 1em;
+                }
+
+                p {
+                    @include ColorFont($color2, 1rem, 300);
+
+                    width: 248px;
+                }
+            }
+
+            div.card4 {
+                p {
+                    width: 260px;
+                }
+            }
+        }
+    }
+
+    div.articles {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        background-color: $color6;
+
+        padding: 4em 5em;
+
+        width: 1327px;
+
+        h2 {
+            @include ColorFont($color3, 2.1rem, 400);
+
+            padding-bottom: 1em;
+        }
+
+        div.articlesInfo {
+            @include Display(space-between);
+
+            width: 100%;
+
+            article {
+                @include StyleWH(243px, 380px);
+
+                background-color: $color1;
+
+                border: 1px solid $color7;
+
+                img {
+                    @include StyleWH(240px, 200px);
+
+                    padding-bottom: 1em;
+
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
+                }
+
+                div.texts {
+                    margin-left: 1.2em;
+                    
+                    p.author {
+                        @include ColorFont($color2, 0.7rem, 300);
+
+                        padding-bottom: 1em;
+                    }
+
+                    h3 {
+                        @include ColorFont($color3, 1.2rem, 400);
+
+                        width: 230px;
+
+                        padding-bottom: 1em;
+
+                        &:hover {
+                            color: $color4;
+
+                            cursor: pointer;
+                        }
+                    }
+
+                    p.textP {
+                        @include ColorFont($color2, 0.9rem, 400);
+
+                        width: 220px;
+                    }
+                }
+            }
+
+            article.article4 {
+                p.textP {
+                    width: 256px;
+                }
+            }
+        }
+    }
+}

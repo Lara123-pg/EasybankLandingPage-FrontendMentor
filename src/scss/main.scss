@@ -1,0 +1,13 @@
+@import 'global';
+@import 'variables';
+@import 'button';
+@import 'display';
+@import 'styleWH';
+@import 'colorFont';
+
+div.container {
+   @import 'headerPage';
+   @import 'mainPage';
+   @import 'footerPage';
+   @import 'responsive';
+}

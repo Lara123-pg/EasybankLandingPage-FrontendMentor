@@ -1,0 +1,46 @@
+header {
+    @include Display(space-around, center);
+
+    background-color: $color1;
+
+    height: 11vh;
+
+    position: relative;
+
+    width: 1326px;
+
+    nav {
+        z-index: 2;
+        ul {
+            @include Display(space-around);
+
+            list-style: none;
+
+            a {
+                @include ColorFont($color2, 1rem, 400);
+          
+                text-decoration: none;
+
+                padding: 0.9em;
+
+                &:hover {
+                    color: $color3;
+
+                    cursor: pointer;
+
+                    border-bottom: 4px solid;
+                    border-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+                    border-image-slice: 1;
+                }
+            }
+        }
+    }
+
+    z-index: 2;
+
+    label, div {
+        visibility: hidden;
+
+        position: absolute;
+    }
+}

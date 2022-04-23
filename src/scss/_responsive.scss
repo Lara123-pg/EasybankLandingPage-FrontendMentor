@@ -1,0 +1,1128 @@
+@media (max-width: 1285px) {
+    main {
+        div.infoPhoto {
+            img.background {
+                @include StyleWH(900px, 750px);  
+            }
+    
+            img.phones {
+                @include StyleWH(550px, 770px);
+    
+                margin: -5em 0 0 -62em;
+
+                margin-left: -44em;
+            }
+        }
+    }
+}
+
+@media(max-width: 1267px) {
+    main {
+        div.infoPhoto {    
+            img.phones {
+                margin-left: -45em;
+            }
+        }
+    }
+}
+
+@media(max-width: 1265px) {
+    div.cards {
+        margin-left: -3em;
+    }
+}
+
+@media (max-width: 1257px) {
+    main {
+        div.infoPhoto {
+            img.phones {
+                margin-left: -46em;
+            }
+        }
+    }
+}
+
+@media(max-width: 1255px) {
+    main {
+        div.articles {
+            margin-left: -2em;
+        }
+    }
+}
+
+@media (max-width: 1238px) {
+    main {
+        div.infoPhoto {
+            img.phones {
+                margin-left: -47em;
+            }
+        }
+    }
+}
+
+@media(max-width: 1235px) {
+    footer {
+        div.footerContainer {
+            margin-left: -2em;
+
+            nav {
+                margin-left: -7em;
+            }
+
+            div.buttonText {
+                margin-left: -10em;
+            }
+        }
+    }
+}
+
+@media(max-width: 1230px) {
+    header {
+        img {
+            margin-left: -3em;
+        }
+
+        nav {
+            margin-left: -5em;
+        }
+
+        button {
+            margin-left: -10em;
+        }
+    }
+}
+
+@media (max-width: 1220px) {
+    main {
+        div.infoPhoto {
+            img.phones {
+                margin-left: -47.5em;
+            }
+        }
+    }
+}
+
+@media(max-width: 1217px) {
+    main {
+        div.articles {
+            div.articlesInfo {
+                article {
+                    width: 20%;
+
+                    img {
+                        @include StyleWH(220px, 200px);
+                    }
+    
+                    div.texts {
+                        h3 {
+                            font-size: 1rem;
+    
+                            width: 180px;
+                        }
+    
+                        p.textP {
+                            font-size: 0.75rem;
+    
+                            width: 200px;
+                        }
+                    }
+                }
+
+                article.article4 {
+                    margin-right: 4em;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1215px) {
+    main {
+        div.cards {
+            padding: 6em;
+        }
+    }
+}
+
+@media(max-width: 1205px) {
+    main {
+        div.infoPhoto {
+            img.phones {
+                margin-left: -48.5em;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    main {
+        div.infoPhoto {
+            img.phones {
+                margin-left: -49em;
+            }
+        }
+    }
+}
+
+@media(max-width: 1190px) {
+    main {
+        div.cards {
+            margin-left: -5em;
+        }
+    }
+}
+
+@media(max-width: 1180px) {
+    footer {
+        div.footerContainer {
+            margin-left: -5em;
+
+            div.logoSocialMedia {
+                margin-left: -4em;
+            }
+
+            nav {
+                margin-left: -15em;
+            }
+
+            div.buttonText {
+                margin-left: -20em;
+            }
+        }
+
+        .attribution {
+            margin-left: -5em;
+        }
+    }
+}
+
+@media(max-width: 1185px) {
+    header {
+        img {
+            margin-left: -5em;
+        }
+
+        nav {
+            margin-left: -10em;
+        }
+
+        button {
+            margin-left: -15em;
+        }
+    }
+}
+
+@media (max-width: 1181px) {
+    main {
+        div.infoPhoto {    
+            img.phones {
+                margin-left: -50em;
+            }
+        }
+    }
+}
+
+@media (max-width: 1166px) {
+    main {
+        div.infoPhoto {    
+            img.phones {
+                margin-left: -50.5em;
+            }
+        }
+    }
+}
+
+@media(max-width: 1160px) {
+    main {
+        div.cards {
+            padding: 8em;
+
+            div.cardsInfo {
+                div {
+                    width: 260px;
+    
+                    p {
+                        font-size: 0.9rem;
+    
+                        width: 180px;
+                    }
+                }
+    
+                div.card4 {
+                    p {
+                        width: 200px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1155px) {
+    header {
+        img {
+            margin-left: -10em;
+        }
+
+        nav {
+            margin-left: -15em;
+        }
+
+        button {
+            margin-left: -20em;
+        }
+    }
+}
+
+@media (max-width: 1148px) {
+    main {
+        div.infoPhoto {    
+            img.phones {
+                margin-left: -52em;
+            }
+        }
+    }
+}
+
+@media(max-width: 1140px) {
+    main {
+        div.articles {
+            div.articlesInfo {
+                article.article4 {
+                    margin-right: 7em;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1130px) {
+    main {
+        div.infoPhoto {    
+            img.phones {
+                margin-left: -53em;
+            }
+        }
+    }
+}
+
+@media(max-width: 1112px) {
+    header {
+        img {
+            margin-left: -13em;
+        }
+
+        nav {
+            margin-left: -20em;
+        }
+
+        button {
+            margin-left: -30em;
+        }
+    }
+}
+
+@media (max-width: 1110px) {
+    main {
+        div.infoPhoto {    
+            img.phones {
+                margin-left: -54em;
+            }
+        }
+    }
+}
+
+@media(max-width: 1100px) {
+    footer {
+        div.footerContainer {
+            margin-left: -5em;
+
+            div.logoSocialMedia {
+                margin-left: -4em;
+            }
+
+            nav {
+                margin-left: -25em;
+            }
+
+            div.buttonText {
+                margin-left: -30em;
+            }
+        }
+
+        .attribution {
+            margin-left: -10em;
+        }
+    }
+}
+
+@media (max-width: 1094px) {
+    main {
+        div.infoPhoto {
+            img.phones {
+                margin-left: -55em;
+            }
+        }
+    }
+}
+
+@media(max-width: 1090px) {
+    main {
+        div.articles {
+            div.articlesInfo {
+                article.article4 {
+                    margin-right: 9em;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1076px) {
+    main {
+        div.infoPhoto {
+            img.background {
+                margin-left: -10em;
+            }
+    
+            img.phones {
+                margin-left: -46em;
+            }
+        }
+    }
+}
+
+@media(max-width: 1070px) {
+    header {
+        img {
+            margin-left: -13em;
+        }
+
+        nav {
+            margin-left: -22em;
+        }
+
+        button {
+            margin-left: -40em;
+        }
+    }
+}
+
+@media(max-width: 1060px) {
+    main {
+        div.cards {
+            padding: 5.5em;
+        }
+    }
+}
+
+@media (max-width: 1056px) {
+    main {
+        div.infoPhoto {    
+            img.phones {
+                margin-left: -47em;
+            }
+        }
+    }
+}
+
+@media(max-width: 1050px) {
+    main {
+        div.articles {
+            div.articlesInfo {
+                article.article4 {
+                    margin-right: 11em;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1045px) {
+    footer {
+        div.footerContainer {
+            div.logoSocialMedia {
+                margin-left: -7em;
+            }
+
+            nav {
+                margin-left: -30em;
+            }
+
+            div.buttonText {
+                margin-left: -34em;
+            }
+        }
+    }
+}
+
+@media (max-width: 1040px) {
+    main {
+        div.infoPhoto {    
+            img.phones {
+                margin-left: -47.5em;
+            }
+        }
+    }
+}
+
+@media(max-width: 1038px) {
+    header {
+        img {
+            margin-left: -15em;
+        }
+
+        nav {
+            margin-left: -28em;
+        }
+
+        button {
+            margin-left: -42em;
+        }
+    }
+}
+
+@media (max-width: 1020px) {
+    main {
+        div.infoPhoto { 
+            div.texts {
+                margin-left: -2em;
+            }   
+
+            img.phones {
+                margin-left: -47em;
+            }
+        }
+    }
+}
+
+@media(max-width: 1014px) {
+    main {
+        div.cards {
+            flex-direction: column;
+            align-items: center;
+
+            div.cardsInfo {
+                flex-direction: column;
+                align-items: center;
+
+                width: 100%;
+
+                div { 
+
+                    h3 {
+                        @include ColorFont($color3, 1.4rem, 400);
+                    }
+
+                    p {
+                        @include ColorFont($color2, 1rem, 300);
+
+                        width: 248px;
+                    }
+                }
+
+                div.card4 {
+                    p {
+                        width: 260px;
+                    }
+                }
+            }
+        }
+
+        div.articles {
+            div.articlesInfo {
+                article.article4 {
+                    margin-right: 13em;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1010px) {
+    header {
+        img {
+            margin-left: -15em;
+        }
+
+        nav {
+            margin-left: -34em;
+        }
+
+        button {
+            margin-left: -47em;
+        }
+    }
+}
+
+@media(max-width: 1005px) {
+    footer {
+        height: 700px;
+
+        div.footerContainer {
+            flex-direction: column;
+
+            div.logoSocialMedia {
+                height: 110px;  
+            }
+    
+            nav {
+                ul {
+                    @include StyleWH(300px, 300px);
+
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    
+                    margin-left: 23em;
+                }
+            }
+    
+            div.buttonText {
+                align-items: center;
+
+                margin-left: -7.5em;
+
+                padding-top: -4em;
+            }
+        }
+    }
+}
+
+@media (max-width: 1003px) {
+    main {
+        div.infoPhoto {    
+            img.phones {
+                margin-left: -47em;
+            }
+        }
+    }
+}
+
+@media(max-width: 997px) {
+    main {
+        div.infoPhoto { 
+            div.texts {
+                margin-left: -3em;
+            }   
+
+            img.phones {
+                margin-left: -47.5em;
+            }
+        }
+    }
+}
+
+@media(max-width: 991px) {
+    header {
+        img {
+            margin-left: -13em;
+        }
+
+        nav {
+            margin-left: -35em;
+        }
+
+        button {
+            margin-left: -49em;
+        }
+    }
+}
+
+@media (max-width: 986px) {
+    main {
+        div.infoPhoto {
+            img.background {
+                margin-top: -12em;  
+            }
+    
+            img.phones {
+                @include StyleWH(550px, 800px);
+    
+                margin-left: -47.8em;
+            }
+        }
+    }
+}
+
+@media(max-width: 980px) {
+    header {
+        img {
+            margin-left: -19em;
+        }
+
+        nav {
+            margin-left: -38em;
+        }
+
+        button {
+            margin-left: -50em;
+        }
+    }
+}
+
+@media(max-width: 977px) {
+    main {
+        div.articles {
+            align-items: center;
+
+            margin-left: -10em;
+    
+            div.articlesInfo {
+                flex-direction: column;
+                align-items: center;
+    
+                article {
+                    img {
+                        @include StyleWH(240px, 200px);
+                    }
+    
+                    div.texts {
+                        h3 {
+                            font-size: 1.3rem;
+    
+                            width: 230px;
+                        }
+    
+                        p.textP {
+                            font-size: 0.8rem;
+    
+                            width: 216px;
+                        }
+                    }
+                }
+    
+                article.article4 {
+                    margin-left: 12em;
+                    p.textP {
+                        width: 256px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 970px) {
+    main {
+        div.infoPhoto {
+            flex-direction: column;
+
+            height: 800px;
+    
+            div.texts {
+                margin-top: 20em;
+                margin-left: 10em;
+            }
+    
+            img.background {
+                @include StyleWH(900px, 523px);
+    
+                margin-top: -55em;  
+                margin-left: 20em
+            }
+    
+            img.phones {
+                @include StyleWH(400px, 500px);
+    
+                margin-left: 20em;
+                margin-bottom: 25em;
+                margin-top: -30em;
+            }
+        }
+    }
+}
+
+@media(max-width: 945px) {
+    header {
+        img {
+            margin-left: -17em;
+        }
+
+        nav {
+            margin-left: -40em;
+        }
+
+        button {
+            margin-left: -55em;
+        }
+    }
+}
+
+@media(max-width: 940px) {
+    header {
+        img {
+            margin-left: -22em;
+        }
+
+        nav {
+            margin-left: -42em;
+        }
+
+        button {
+            margin-left: -55em;
+        }
+    }
+}
+
+@media(max-width: 920px) {
+    header {
+        img {
+            margin-left: -22em;
+        }
+
+        nav {
+            margin-left: -45em;
+        }
+
+        button {
+            margin-left: -60em;
+        }
+    }
+}
+
+@media(max-width: 902px) {
+    header {
+        nav, button {
+            visibility: hidden;
+        }
+
+        img {
+            width: 130px;
+
+            margin-left: -15em;
+        }
+
+        label.hamburger {
+            img.hamburgerImg {
+                @include StyleWH(24px, 11px);
+            }
+
+            img.closeImg {
+                @include StyleWH(18px, 19px);
+            }
+
+            visibility: visible;
+
+            margin-left: 38em;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        div.containerMenu {
+            @include StyleWH(550px, 300px);
+         
+            background-color: $color1;
+
+            visibility: visible;
+
+            margin-left: -20em;
+            margin-top: 27em;
+
+            box-shadow: 0 0 1em $color3;
+
+            nav.responsiveNav {
+                visibility: visible;
+                
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                height: 300px;
+
+                ul {
+                    display: flex;
+                    flex-direction: column;
+
+                    height: 200px;
+
+                    margin-left: 40em;
+
+                    li a {
+                        color: $color3;
+
+                        font-weight: 700;
+                    }
+                }
+                
+            }
+        }
+
+        div.containerMenuClose {
+            visibility: hidden;
+        }
+    }
+}
+
+@media(max-width: 890px) {
+    main {
+        div.cards {
+            margin-left: -10em;
+        }
+    }
+}
+
+@media(max-width: 810px) {
+    footer {
+        .attribution {
+            margin-left: -25em;
+        }
+    }
+}
+
+@media(max-width: 800px) {
+    main {
+        div.cards {
+            margin-left: -13em;
+        }
+    }
+}
+
+@media(max-width: 785px) {
+    header {
+        label.hamburger {
+            margin-left: 30em;
+        }
+
+        div.containerMenu {
+            margin-left: -28em;
+        }
+    }
+
+    main {
+        div.infoPhoto {    
+            div.texts {
+                margin-top: 20em;
+                margin-left: 5em;
+            }
+    
+            img.background {
+                margin-top: -55em;  
+                margin-left: 10em
+            }
+    
+            img.phones {
+                margin-left: 10em;
+                margin-bottom: 25em;
+                margin-top: -30em;
+            }
+        }
+    }
+}
+
+@media(max-width: 745px) {
+    main {
+        div.cards {
+            margin-left: -16em;
+        }
+    }
+}
+
+@media(max-width: 715px) {
+    header {
+        label.hamburger {
+            margin-left: 26em;
+        }
+
+        div.containerMenu {
+            margin-left: -32em;
+        }
+    }
+}
+
+@media(max-width: 692px) {
+    main {
+        div.cards {
+            margin-left: -18em;
+        }
+    }
+}
+
+@media(max-width: 690px) {
+    footer {
+        div.footerContainer {
+            margin-left: -25em;
+        }
+
+    
+        .attribution {
+            margin-left: -40em;
+        }
+        
+    }
+}
+
+@media(max-width: 675px) {
+    header {
+        label.hamburger {
+            margin-left: 22em;
+        }
+
+        div.containerMenu {
+            @include StyleWH(500px, 300px);
+            
+            margin-left: -35em;
+        }
+        
+    }
+}
+
+@media(max-width: 660px) {
+    main {
+        div.cards {
+            p.mainText {
+                font-size: 1rem;
+
+                width: 340px;
+            }
+        }
+    }
+}
+
+@media(max-width: 650px) {
+    main {
+        div.infoPhoto {    
+            div.texts {
+                margin-left: 2em;
+            }
+    
+            img.background { 
+                margin-left: 4em;
+            }
+    
+            img.phones {
+                margin-left: 10em;
+            }
+        }
+
+        div.articles {
+            margin-left: -20em;
+        }
+    }
+}
+
+@media(max-width: 633px) {
+    header {
+        label.hamburger {
+            margin-left: 18em;
+        }
+
+        div.containerMenu {
+            margin-left: -39em;
+        }
+    }
+}
+
+@media(max-width: 597px) {
+    header {
+        label.hamburger {
+            margin-left: 14em;
+        }
+
+        div.containerMenu {
+            @include StyleWH(450px, 300px);
+
+            margin-left: -42em;
+        }
+    }
+}
+
+@media(max-width: 585px) {
+    main {
+        div.infoPhoto {    
+            div.texts {
+                margin-left: -1em;
+            }
+    
+            img.background { 
+                margin-left: 2em;
+            }
+    
+            img.phones {
+                margin-left: 8em;
+            }
+        } 
+    }
+}
+
+@media(max-width: 573px) {
+    footer {
+        .attribution {
+            margin-left: -46em;
+        }
+    }
+}
+
+@media(max-width: 560px) {
+    header {
+        label.hamburger {
+            margin-left: 10em;
+        }
+    }
+}
+
+@media(max-width: 553px) {
+    main {
+        div.cards {
+            margin-left: -22em;
+        }
+    }
+}
+
+@media(max-width: 540px) {
+    header {
+        label.hamburger {
+            margin-left: 11em;
+        }
+
+        div.containerMenu {
+            @include StyleWH(450px, 300px);
+
+            margin-left: -42em;
+        }
+    }
+}
+
+@media(max-width: 535px) {
+    main {
+        div.infoPhoto {    
+            div.texts {
+                margin-left: -3em;
+            }
+    
+            img.background { 
+                margin-left: 2em;
+            }
+    
+            img.phones {
+                margin-left: 7em;
+            }
+        }
+    }
+}
+
+@media(max-width: 533px) {
+    header {
+        img {
+            margin-left: -20em;
+        }
+
+        label.hamburger {
+            margin-left: 14em;
+        }
+
+        div.containerMenu {
+            @include StyleWH(420px, 300px);
+            
+            margin-left: -45em;
+        }
+    }
+}
+
+@media(max-width: 520px) {
+    footer {
+        padding-right: 10em;
+    }
+}
