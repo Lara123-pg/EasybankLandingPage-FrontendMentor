@@ -5,6 +5,8 @@ main {
         background-image: linear-gradient(hsl(0, 0%, 98%), hsl(0, 0%, 100%));
 
         z-index: -1;
+
+        width: 1400px;
         
         height: 85vh;
 
@@ -54,7 +56,7 @@ main {
 
         padding: 7em;
 
-        width: 1327px;
+        width: 1400px;
 
         h2 {
             @include ColorFont($color3, 2rem, 400);
@@ -112,7 +114,7 @@ main {
 
         padding: 4em 5em;
 
-        width: 1327px;
+        width: 1400px;
 
         h2 {
             @include ColorFont($color3, 2.1rem, 400);
