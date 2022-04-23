@@ -20,8 +20,8 @@
 Clone o projeto em seu dispositivo e acesse a pasta do mesmo.
 
 ```
-$ git clone 
-$ cd 
+$ git clone https://github.com/Lara123-pg/EasybankLandingPage-FrontendMentor.git
+$ cd EasybankLandingPage-FrontendMentor
 $ code .  (Abrir o Visual Studio Code)
 ```
 
@@ -43,4 +43,4 @@ Email: lamorimalvescavalcante@gmail.com
 
 # Licença
 
-Este projeto está sob a licença MIT -
+Este projeto está sob a licença MIT - https://github.com/Lara123-pg/EasybankLandingPage-FrontendMentor/blob/main/LICENSE
