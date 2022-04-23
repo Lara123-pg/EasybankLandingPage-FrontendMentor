@@ -6,7 +6,7 @@ main {
 
         z-index: -1;
 
-        width: 1400px;
+        width: 1700px;
         
         height: 85vh;
 
@@ -56,7 +56,7 @@ main {
 
         padding: 7em;
 
-        width: 1400px;
+        width: 1700px;
 
         h2 {
             @include ColorFont($color3, 2rem, 400);
@@ -114,7 +114,7 @@ main {
 
         padding: 4em 5em;
 
-        width: 1400px;
+        width: 1700px;
 
         h2 {
             @include ColorFont($color3, 2.1rem, 400);
